@@ -1,4 +1,4 @@
-// C# sample code, this does not demonstration the initialization and unlocking of library
+// C# sample code, this does not demonstrate the initialization and unlocking of Debenu Quick PDF Library
 
 int r1 = DPL.DAOpenFile(@"dev_guide.pdf", ""); // Load sample file
 int r2 = DPL.DAFindPage(r1, 2); // Second parameter is page to use for text extraction
