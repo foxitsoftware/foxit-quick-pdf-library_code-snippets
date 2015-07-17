@@ -3,7 +3,7 @@
 // replace links in PDF files.
 
 // Load PDF to process
-DPL.LoadFromFile(@"C:\Temp\debenu_quick_pdf_library_android\Debenu Cross Platform PDF Library 11.15 Reference Guide.pdf", "");
+DPL.LoadFromFile(@"C:\Temp\Sample.pdf", "");
 // Count pages in doc
 int pCount = DPL.PageCount();
 
@@ -69,5 +69,5 @@ for (int p = 1; p <= pCount; p++)
 	}
 }
 // Save the updated file to a new file
-DPL.SaveToFile(@"C:\Temp\debenu_quick_pdf_library_android\Debenu Cross Platform PDF Library 11.15 Reference Guide3.pdf");
+DPL.SaveToFile(@"C:\Temp\Sample_Updated.pdf");
 Console.Read();
