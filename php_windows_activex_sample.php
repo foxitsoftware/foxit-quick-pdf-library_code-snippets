@@ -1,4 +1,8 @@
 <?php
+// The DebenuPDFLibraryAX1115.dll ActiveX must be registered on
+// the machine. There's a 64-bit version as well called
+// (DebenuPDFLibrary64AX1115.dll) which can be used but the
+// class name would need to be changed in this sample.
 $root = $_SERVER['DOCUMENT_ROOT'] . '/'; // Root path of your site
 $FileName = $root . '/hello_world.pdf'; // Specify a file name
 $qp = new COM('DebenuPDFLibraryAX1115.PDFLibrary'); // Make sure you've registered the ActiveX edition of the library
