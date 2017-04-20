@@ -6,4 +6,4 @@ This repository has code snippets that perform the tasks specified in the source
 
 If you do not already have a trial or commercial version of Foxit Quick PDF Library you can download one from the page below:
 
-http://www.debenu.com/products/development/debenu-pdf-library/
+http://www.foxitsdk.com/products/quick-pdf-library/
